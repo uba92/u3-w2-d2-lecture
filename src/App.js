@@ -6,16 +6,16 @@ import MyNavbar from './components/MyNavbar'
 import Reservation from './components/Reservation'
 import Admin from './components/Admin'
 import MainContent from './components/MainContent'
-import StateExample from './components/StateExample'
-import EffectComponent from './components/EffectComponent'
+// import StateExample from './components/StateExample'
+// import EffectComponent from './components/EffectComponent'
 
 function App() {
   return (
     <div className='App'>
       <header>
         <MyNavbar isFluid={true} subtitle='Uba' />
-        <StateExample />
-        <EffectComponent />
+        {/* <StateExample />
+        <EffectComponent /> */}
       </header>
       <main className='bg-dark p-3'>
         <Container>
